@@ -1,9 +1,8 @@
 #include<iostream>
-
 using namespace std;
 int main()
 {    
-    int i;
+       int i;
        for(i=1000;i<=3000;i++)
        {  
            if(i%2==0)
@@ -24,7 +23,8 @@ int main()
            cout<<i<<",";
        
             
+           }
        }
-       }
+       
        return 0;
 }
